@@ -1,0 +1,102 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+
+  background: linear-gradient(0deg, rgba(35,185,203,1) 0%, rgba(253,147,45,0.895030737704918) 100%);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  text-align: center;
+  border: 5px;
+  padding: 60px 30px 30px 30px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px 6px rgba(0, 0, 0, 0.4);
+  border: 1px solid lightgrey;
+  margin: 10% auto;
+}
+
+#img-circle {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  color: rgb(36, 127, 137);
+  padding: 10px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  color: #dd9000;
+  font-size: larger;
+}
+
+.social-links {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.social-title {
+  margin-bottom: 0px;
+  font-weight: bolder;
+  margin-top: 35px;
+}
+
+ul > li {
+  font-size: 30px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #86BBD8;
+  color: #C84630;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0 , 0, 0.4);
+}
+
+.btn:hover, ul > li:hover {
+  background-color: #C84630 ;
+  color: #E3E3E3;
+  transition: .3s;
+  border-radius: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  #img-circle {
+    height: 333px;
+    width: 200px;
+  }
+}
